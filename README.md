@@ -6,17 +6,19 @@ This is a boilerplate project setup for students to setup an express server that
 
 The server is to handle requests using Content-Type `application/json`.
 
-####Input
+#### Input
+
 You can expect request payloads to be in the following format.
 
-```json
+```
 [ <number array> ]
 ```
 
-####Output
+#### Output
+
 Server responses are expected to adhere to the following format.
 
-```json
+```
 {
   "average": <number>
 }
