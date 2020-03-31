@@ -29,3 +29,5 @@ Server responses are expected to adhere to the following format.
 - This should be done using Typescript.
 - This can be completed in many different ways. But for **YOUR** benefit using ES6 array functions would be best.
 - You should write unit tests.
+
+> "Seek not to complete the problem - instead seek to understand the code you are writing and why it is necessary" - B Turner
