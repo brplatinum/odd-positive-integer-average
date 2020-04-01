@@ -14,13 +14,23 @@ You can expect request payloads to be in the following format.
 [ <number array> ]
 ```
 
+It is expected to validate the input as accepting integers only. If this is not the case then the server should respond with a 400 status code.
+
 #### Output
 
-Server responses are expected to adhere to the following format.
+For a valid request the server is expected to return the following format.
 
 ```
 {
   "average": <number>
+}
+```
+
+If the validation fails, then the server is to response with status code 400 and JSON structure below.
+
+```
+{
+  "message": "<message about what caused error>"
 }
 ```
 
