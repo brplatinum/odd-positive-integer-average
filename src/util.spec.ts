@@ -3,7 +3,7 @@ import { averageOddPositiveIntegers } from './util';
 // Test suite here...
 
 describe("averageOddPositiveIntegers()", () => {
-    test("Good input", () => {
+    test("Input containing only positive integers", () => {
         const input: number[] = [1,2,3,4,5,6,7,8,9,10,33];
         expect(averageOddPositiveIntegers(input)).toBe(58/6);
     });
