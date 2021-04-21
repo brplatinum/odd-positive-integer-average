@@ -24,9 +24,10 @@
   "homepage": "https://github.com/CS-BTurner/odd-positive-integer-average#readme",
   "devDependencies": {
     "@types/express": "^4.17.3",
+    "@types/jest": "^26.0.22",
     "@types/node": "^13.9.8",
     "@types/supertest": "^2.0.8",
-    "jest": "^25.2.4",
+    "jest": "^26.6.3",
     "nodemon": "^2.0.2",
     "supertest": "^4.0.2",
     "ts-jest": "^25.3.0",
