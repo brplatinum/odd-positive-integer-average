@@ -1,12 +1,15 @@
 import request from 'supertest';
-import app from './index';
+import { initExpressApp } from './app';
 
 // Test suite here...
+const app = initExpressApp();
 
 describe("POST /odd-positive-average", () => {
+
+
     describe("Given a good input of an array of integers", () => {
         it("Should respond with status code 200 and the correct answer", async () => {
-            await request(app)
+             await request(app)
                 .post('/odd-positive-average')
                 .send([1,2,3,4,5,6,7])
                 .set("Accept", "application-json")

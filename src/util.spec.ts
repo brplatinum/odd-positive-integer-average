@@ -32,8 +32,4 @@ describe("averageOddPositiveIntegers()", () => {
         const input: number[] = [-4, -2, 0, 2, 8, 4, 2, 12, 6, 6, -10];
         expect(averageOddPositiveIntegers(input)).toBe(0);
     });
-
-    
-
-
 })

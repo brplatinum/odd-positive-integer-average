@@ -9,3 +9,7 @@ export function averageOddPositiveIntegers(input: number[]): number {
     return 0;
   }
 }
+
+export function isInputGood(input: any[]): boolean{
+  return input.every(Number.isInteger);
+}
