@@ -36,7 +36,7 @@ If the validation fails, then the server is to response with status code 400 and
 
 ## Why
 
-- This project was created in order to improve both my Typescript skills and also to learn about how to buidld and how to use REST APIs.
+- This project was created in order to improve both my Typescript skills and also to learn about how to build and how to use REST APIs.
 - This project is also designed to be hosted on Heroku so it also acts as a learning tool for Heroku deployment.
 
 > "Seek not to complete the problem - instead seek to understand the code you are writing and why it is necessary" - B Turner
