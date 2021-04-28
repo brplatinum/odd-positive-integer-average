@@ -1,10 +1,10 @@
 # Odd Positive Integer Average
 
-This is a boilerplate project setup for students to setup an express server that exposes a POST endpoint `/odd-positive-average`. The endpoint is pretty self explanatory as it receives a given array of integers and returns the average of only the positive odd integers.
+This project exposes exposes a POST endpoint at /odd-positive-average using a REST API that accepts an array of integers and returns the average of the odd, positive elements of the array.
 
 ## Expected interfaces
 
-The server is to handle requests using Content-Type `application/json`.
+The server handles requests using Content-Type `application/json`.
 
 #### Input
 
@@ -34,10 +34,9 @@ If the validation fails, then the server is to response with status code 400 and
 }
 ```
 
-## Note
+## Why
 
-- This should be done using Typescript.
-- This can be completed in many different ways. But for **YOUR** benefit using ES6 array functions would be best.
-- You should write unit tests.
+- This project was created in order to improve both my Typescript skills and also to learn about how to buidld and how to use REST APIs.
+- This project is also designed to be hosted on Heroku so it also acts as a learning tool for Heroku deployment.
 
 > "Seek not to complete the problem - instead seek to understand the code you are writing and why it is necessary" - B Turner
